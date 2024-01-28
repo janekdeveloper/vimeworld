@@ -5,4 +5,4 @@ bot = Client()
 bot.start()
 us = users(bot)
 
-print(us.get_by_nick('nikita').user_id)
+print(us.get_by_nick('Janek').user_id)
