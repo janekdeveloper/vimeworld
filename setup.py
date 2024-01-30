@@ -2,9 +2,8 @@ from setuptools import setup, find_packages
 
 
 
-def readme():
-  with open('README.md', 'r') as f:
-    return f.read()
+with open("README.md", "r") as readme_file:
+    readme = readme_file.read()
 
 
 setup(
@@ -13,7 +12,7 @@ setup(
   author='xtraswed',
   author_email='xtraswed@gmail.com',
   description='SDK для работы с API VimeWorld',
-  long_description=readme(),
+  long_description=readme,
   long_description_content_type='text/markdown',
   url='https://github.com/xtraswed/vimeworld',
   packages=find_packages(),
