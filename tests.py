@@ -1,10 +1,10 @@
+#test
 import vimeworld as pyvime
 from vimeworld import Client, users
 bot = Client()
 bot.start()
 
 us = users(bot)
-
 
 user_id  = us.get_by_nick('xtrafrancyz').user_id
 username = us.get_by_nick('xtrafrancyz').username
